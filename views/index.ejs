@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="message">     
+    </div>
+    <main> 
+        <form class="forminfo"> 
+            <div>
+                <label>Name:</label>
+                <input type="text" id="name">
+            </div>     
+            <div>
+                <label>Dojo Location:</label>
+                <select id="location">
+                    <option>New York</option>
+                    <option>Los Angeles</option>
+                    <option>Mexico</option>
+                </select>
+            </div>  
+            <div >
+                <label>Favorite Language:</label>
+                <select id="language">
+                    <option>Java</option>
+                    <option>Phyton</option>
+                    <option>C++</option>
+                </select>
+            </div>
+            <div >
+                <label>Comment (Optional):</label> <br/>
+                <textarea id="comment"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type ="text/javascript" src="/socket.io/socket.io.js"></script> 
+<script src="/js/index.js"></script>
+</body>
+</html>
